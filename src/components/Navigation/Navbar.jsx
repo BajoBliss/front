@@ -1,5 +1,5 @@
 import { NavLink } from "react-router-dom";
-import BajoLogo from "../assets/img/nav-icon.png";
+import BajoLogo from "../../assets/img/nav-icon.png";
 
 const Navbar = () => {
   const arrNavbar = [

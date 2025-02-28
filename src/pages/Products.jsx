@@ -1,4 +1,4 @@
-import Layouts from "../component/Layouts/Layouts";
+import Layouts from "../components/Layouts/Layouts";
 
 const Products = () => {
   return (
