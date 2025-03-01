@@ -6,6 +6,8 @@ import {
 import Home from "../pages/Home";
 import Products from "../pages/Products";
 import Faq from "../pages/Faq";
+import Login from "../pages/Login";
+import Register from "../pages/Register";
 
 const Routes = () => {
   // Define public routes accessible to all users
@@ -51,11 +53,11 @@ const Routes = () => {
   const routesForNotAuthenticatedOnly = [
     {
       path: "/register",
-      element: "register",
+      element: <Register />,
     },
     {
       path: "/login",
-      element: "login",
+      element: <Login />,
     },
   ];
 
