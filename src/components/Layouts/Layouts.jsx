@@ -1,10 +1,12 @@
+import Footer from "../Navigation/Footer";
 import Navbar from "../Navigation/Navbar";
 
 const Layouts = ({ children }) => {
   return (
-    <main>
+    <main className="min-h-screen flex flex-col">
       <Navbar />
-      <section className="px-[40px]">{children}</section>
+      <section className="px-[40px] flex-grow">{children}</section>
+      <Footer />
     </main>
   );
 };
